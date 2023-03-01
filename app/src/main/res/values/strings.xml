@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Uber Fare App</string>
+    <string name="estimateBtn">Estimate Ride Cost</string>
+</resources>
