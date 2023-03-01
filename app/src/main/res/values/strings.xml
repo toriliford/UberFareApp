@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Uber Fare App</string>
     <string name="estimateBtn">Estimate Ride Cost</string>
+    <string name="milesString">How many miles is your trip?</string>
+    <string name="smartCar">Smart Car</string>
+    <string name="sedan">Sedan</string>
+    <string name="miniVan">Minivan</string>
+    <string name="typeOfCar">Which type of car would you like?</string>
+    <string name="milesHint">0 Miles</string>
 </resources>
