@@ -7,4 +7,13 @@
     <string name="miniVan">Minivan</string>
     <string name="typeOfCar">Which type of car would you like?</string>
     <string name="milesHint">0 Miles</string>
+    <string name="spinnerHint">Car Type</string>
+    <string name="btnBack">Back</string>
+    <string name="yourTotal">Your Total:</string>
+
+    <!--    <string-array name="carSpinnerArray">-->
+<!--        <item>Smart Car</item>-->
+<!--        <item>Sedan</item>-->
+<!--        <item>Minivan</item>-->
+<!--    </string-array>-->
 </resources>

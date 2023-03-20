@@ -34,6 +34,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:hint="@string/milesHint"
+        android:textAlignment="center"
         android:inputType="number"
         />
 
@@ -47,45 +48,16 @@
         android:layout_gravity="center_horizontal"
         />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+
+    <Spinner
+        android:id="@+id/carSpinner"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
-        android:orientation="horizontal"
-        android:gravity="center_horizontal">
-
-        <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-
-            <RadioButton
-                android:id="@+id/rbSmartCar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/smartCar"
-                />
-            <RadioButton
-                android:id="@+id/rbSedan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/sedan"
-                />
-            <RadioButton
-                android:id="@+id/rbMinivan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="8dp"
-                android:text="@string/miniVan"
-                />
-
-        </RadioGroup>
-    </LinearLayout>
-
+        android:textAlignment="center"
+        android:prompt="@string/spinnerHint"
+        />
 
     <Button
         android:id="@+id/button"
